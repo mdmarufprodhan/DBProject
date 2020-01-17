@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student</title>
+</head>
+<body>
+<h1>List of the student</h1>
+
+{% for s in allStudents %}
+
+{{s.name}}  <br>
+{{s.student_ID}}  <br>
+{{s.email_addres}}  <br>
+{{s.depart_name }}  <br>
+
+<br>
+{% endfor %}
+
+
+
+</body>
+</html>
